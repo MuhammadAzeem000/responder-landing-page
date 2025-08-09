@@ -3,6 +3,28 @@
 
 :root {
   --primary-color: #1890ff;
+  --secondary-color: #0B0F1A;
+  --text-color: #cfd8dc;
+}
+
+.text-white {
+  color: var(--text-color) !important;
+}
+
+.text-primary {
+  color: var(--primary-color) !important;
+}
+
+.text-secondary {
+  color: var(--secondary-color) !important;
+}
+
+.bg-primary {
+  background-color: var(--primary-color) !important;
+} 
+
+.bg-secondary {
+  background-color: var(--secondary-color) !important;
 }
 
 .fs-7 {
@@ -246,7 +268,7 @@ body {
 
 .tech-company .tab-content .technologypart ul li p {
   font-size: 18px;
-  color: rgb(0, 0, 0);
+  color: var(--text-color);
 }
 
 .tech-company .technologytabs {
@@ -270,7 +292,7 @@ body {
 .tech-company .technologytabs .nav-tabs>li a {
   text-align: center;
   display: block;
-  color: rgb(0, 0, 0);
+  color: var(--text-color);
   font-size: 20px;
   font-weight: 600;
   position: relative;
@@ -320,7 +342,6 @@ ul {
 
 .industries {
   padding: 50px 0px 70px;
-  background: rgb(242, 244, 246);
 }
 
 .industries .heading {
@@ -1130,7 +1151,7 @@ h6 {
   font-weight: 800;
   line-height: 1.2;
   margin: 0px 0px 20px;
-  color: rgb(27, 29, 33);
+  color: var(--primary-color);
 }
 
 h1 {
@@ -1454,8 +1475,9 @@ html {
 }
 
 body {
-  background: rgb(255, 255, 255);
+  background: #0B0F1A;
   overflow-x: hidden;
+  color: #cfd8dc;
 }
 
 hr {
@@ -7158,7 +7180,6 @@ div.tp-bullet:hover {
 
 .section-business {
   padding-top: 40px;
-  background-color: rgb(242, 242, 242);
 }
 
 .section-clent-h2 {
@@ -7178,8 +7199,7 @@ div.tp-bullet:hover {
 }
 
 .section-technology {
-  background-color: rgb(242, 242, 242);
-  color: black;
+  color: var(--text-color);
   background-image: url("");
   background-position: 0px 70px;
   background-repeat: no-repeat;
@@ -10266,7 +10286,7 @@ img.flyingSanta {
   .timeline-steps .timeline-step:not(:last-child):after {
     content: "";
     display: block;
-    border-top: .25rem dotted rgb(27, 29, 33);
+    border-top: .25rem dotted var(--primary-color);
     width: 3.46rem;
     position: absolute;
     left: 7.5rem;
@@ -10276,7 +10296,7 @@ img.flyingSanta {
   .timeline-steps .timeline-step:not(:first-child):before {
     content: "";
     display: block;
-    border-top: .25rem dotted rgb(27, 29, 33);
+    border-top: .25rem dotted var(--primary-color);
     width: 3.8125rem;
     position: absolute;
     right: 7.5rem;
@@ -10433,7 +10453,7 @@ img.flyingSanta {
 .heading h2 {
   font-size: 44px;
   font-weight: 700;
-  color: rgb(27, 29, 33);
+  color: var(--primary-color);
   font-family: Montserrat, sans-serif;
   overflow-wrap: normal;
   line-height: 1.2;
