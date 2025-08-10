@@ -552,6 +552,7 @@ input.form-control {
 
 .award-section {
   text-align: center;
+  border-top: 1px solid var(--primary-color);
 }
 
 .award-section ul {
@@ -7180,6 +7181,7 @@ div.tp-bullet:hover {
 
 .section-business {
   padding-top: 40px;
+  border-top: 1px solid var(--primary-color);
 }
 
 .section-clent-h2 {
@@ -7602,11 +7604,12 @@ div.tp-bullet:hover {
 }
 
 .technology-v4 {
-  background-color: #1a1a1a;
+  background-color: var(--secondary-color);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
   padding: 40px 0px;
+  border-top: 1px solid var(--primary-color);
 }
 
 .technology-left {
@@ -8666,14 +8669,15 @@ svg:not(:root) {
 }
 
 .footer-v1 {
-  background-color: rgb(242, 244, 246);
+  background-color: var(--secondary-color);
   padding: 25px 0px 0px;
-  color: rgb(0, 0, 0);
+  color: var(--text-color);
+  border-top: 1px solid var(--primary-color);
 }
 
 .site-footer h3 {
   font-size: 18px;
-  color: rgb(0, 0, 0);
+  color: var(--primary-color);
   margin-bottom: 10px;
   margin-top: 10px;
 }
@@ -9035,6 +9039,7 @@ section {
 
 .over-hidden {
   overflow: hidden;
+  border-top: 1px solid var(--primary-color);
 }
 
 @media (max-width: 992px) {
@@ -9354,7 +9359,7 @@ section {
 }
 
 .site-footer p {
-  color: rgb(0, 0, 0);
+  color: var(--text-color);
 }
 
 .footer-menu ul {
@@ -10201,6 +10206,7 @@ img.flyingSanta {
 
 .c_logos {
   padding: 10px 0;
+  border-top: 1px solid var(--primary-color);
 
 }
 
