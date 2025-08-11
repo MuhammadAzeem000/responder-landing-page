@@ -342,6 +342,7 @@ ul {
 
 .industries {
   padding: 50px 0px 70px;
+  border-top: 1px solid var(--primary-color);
 }
 
 .industries .heading {
@@ -6950,7 +6951,7 @@ div.tp-bullet:hover {
 }
 
 .home-about-video {
-  background-image: url("../images/home-about-00.jpg");
+  /* background-image: url("../images/home-about-00.jpg"); */
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
